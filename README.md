@@ -10,4 +10,4 @@
 
 ## lkidszzzz的个人主页
   
-### link:lkidszzzz.xyz
+### link : <https://lkidszzzz.xyz>
