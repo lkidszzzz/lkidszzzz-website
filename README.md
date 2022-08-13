@@ -1,6 +1,5 @@
 # lkidszzzz's personal website
 
-##
 ![go](https://img.shields.io/github/go-mod/go-version/lkidszzzz/lkidszzzz-website)
 ![license](https://img.shields.io/github/license/lkidszzzz/lkidszzzz-website)
 ![GitHub followers](https://img.shields.io/github/followers/lkidszzzz?style=social)
