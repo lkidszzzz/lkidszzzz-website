@@ -9,3 +9,4 @@
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=lkidszzzz&show_icons=true&theme=dracula)](https://github.com/anuraghazra/github-readme-stats)
 
 ## lkidszzzz的个人主页
+  link:lkidszzzz.xyz
