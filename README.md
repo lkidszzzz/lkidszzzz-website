@@ -4,9 +4,9 @@
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=lkidszzzz&show_icons=true&theme=dracula)](https://github.com/anuraghazra/github-readme-stats)
 
 ##
-https://img.shields.io/github/go-mod/go-version/lkidszzzz/lkidszzzz-website
-https://img.shields.io/github/license/lkidszzzz/lkidszzzz-website
-https://img.shields.io/github/followers/lkidszzzz?style=social
-https://img.shields.io/github/stars/lkidszzzz?style=social
+![go](https://img.shields.io/github/go-mod/go-version/lkidszzzz/lkidszzzz-website)
+![license](https://img.shields.io/github/license/lkidszzzz/lkidszzzz-website)
+![GitHub followers](https://img.shields.io/github/followers/lkidszzzz?style=social)
+![GitHub stars](https://img.shields.io/github/stars/lkidszzzz?style=social)
 
 ## lkidszzzz的个人主页
