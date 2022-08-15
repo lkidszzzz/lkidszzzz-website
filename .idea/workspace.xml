@@ -31,25 +31,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultGoTemplateProperty&quot;: &quot;Go Application&quot;,
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.go.formatter.settings.were.checked&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.go.migrated.go.modules.settings&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.go.modules.go.list.on.any.changes.was.set&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.go.watchers.conflict.with.on.save.actions.check.performed&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;go.import.settings.migrated&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Komori Chiyu/Documents/Github/lkidszzzz-website/static/images&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultGoTemplateProperty": "Go Application",
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.go.formatter.settings.were.checked": "true",
+    "RunOnceActivity.go.migrated.go.modules.settings": "true",
+    "RunOnceActivity.go.modules.go.list.on.any.changes.was.set": "true",
+    "RunOnceActivity.go.watchers.conflict.with.on.save.actions.check.performed": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "go.import.settings.migrated": "true",
+    "last_opened_file_path": "D:/Komori Chiyu/Documents/Github/lkidszzzz-website/static/scripts"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Komori Chiyu\Documents\Github\lkidszzzz-website\static\images" />
       <recent name="D:\Komori Chiyu\Documents\Github\lkidszzzz-website\static\scripts" />
+      <recent name="D:\Komori Chiyu\Documents\Github\lkidszzzz-website\static\images" />
       <recent name="D:\Komori Chiyu\Documents\Github\lkidszzzz-website\static" />
       <recent name="D:\Komori Chiyu\Documents\Github\lkidszzzz-website\templates\static" />
       <recent name="D:\Komori Chiyu\Documents\Github\lkidszzzz-website\templates" />
@@ -60,7 +60,43 @@
       <recent name="D:\Komori Chiyu\Documents\Github\lkidszzzz-website\templates" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Batch.build-windows">
+    <configuration name="build-linux" type="BatchConfigurationType" factoryName="Batch" temporary="true">
+      <module name="lkidszzzz-website" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="WORKING_DIRECTORY" value="D:\Komori Chiyu\Documents\Github\lkidszzzz-website" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SCRIPT_NAME" value="build-linux.bat" />
+      <option name="PARAMETERS" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="build-windows" type="BatchConfigurationType" factoryName="Batch" temporary="true">
+      <module name="lkidszzzz-website" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="WORKING_DIRECTORY" value="D:\Komori Chiyu\Documents\Github\lkidszzzz-website" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SCRIPT_NAME" value="build-windows.bat" />
+      <option name="PARAMETERS" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="linux-build" type="BatchConfigurationType" factoryName="Batch" temporary="true">
+      <module name="lkidszzzz-website" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SCRIPT_NAME" value="linux-build.bat" />
+      <option name="PARAMETERS" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="windows-build" type="BatchConfigurationType" factoryName="Batch" temporary="true">
+      <module name="lkidszzzz-website" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SCRIPT_NAME" value="windows-build.bat" />
+      <option name="PARAMETERS" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="go build lkidszzzz-website" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="lkidszzzz-website" />
       <working_directory value="$PROJECT_DIR$" />
@@ -72,7 +108,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Batch.build-windows" />
+        <item itemvalue="Batch.build-linux" />
         <item itemvalue="Go 构建.go build lkidszzzz-website" />
+        <item itemvalue="Batch.windows-build" />
+        <item itemvalue="Batch.linux-build" />
       </list>
     </recent_temporary>
   </component>

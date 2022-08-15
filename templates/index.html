@@ -12,16 +12,13 @@
 
     <script src="https://cdn.tailwindcss.com"></script>
     <!--Replace with your tailwind.css once created-->
-
-    <script src="/static/scripts/copy.js"></script>
-
 </head>
 
 <body class="font-sans antialiased text-gray-900 leading-normal tracking-wider bg-cover"
-      style="background-image:url('/static/images/desktop.jpg');">
+      style="background-image:url('/static/images/desktop.webp');">
 
-<div id="tip" class="fixed top-12 w-full hidden">
-    <div class="mx-auto bg-green-100 bg-opacity-90 rounded-xl py-5 px-6 mb-3 text-base text-green-700 flex justify-center items-center w-fit"
+<div id="tip" class="fixed top-12 w-full z-20 hidden">
+    <div class="mx-auto bg-green-100 bg-opacity-90 shadow-md rounded-xl py-5 px-6 mb-3 text-base text-green-700 flex justify-center items-center w-fit z-20"
          role="alert">
         <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="check-circle"
              class="w-4 h-4 mr-2 fill-current" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
@@ -32,17 +29,15 @@
     </div>
 </div>
 
-<div class="max-w-4xl flex items-center h-auto lg:h-screen flex-wrap mx-auto my-32 lg:my-0">
-
+<div class="max-w-4xl flex items-center h-auto lg:h-screen flex-wrap mx-auto my-32 lg:my-0 z-10">
     <!--Main Col-->
     <div id="profile"
-         class="w-full lg:w-3/5 rounded-lg lg:rounded-l-lg lg:rounded-r-none shadow-2xl bg-white opacity-75 mx-6 lg:mx-0">
+         class="w-full lg:w-3/5 rounded-lg lg:rounded-l-lg lg:rounded-r-none shadow-lg bg-white opacity-75 mx-6 lg:mx-0">
 
         <div class="p-4 md:p-12 text-center lg:text-left">
-            <!-- Image for mobile view-->
+            <!--Image for mobile view-->
             <div class="block lg:hidden rounded-full shadow-xl mx-auto -mt-16 h-48 w-48 bg-cover bg-center"
-                 style="background-image: url('/static/images/mobile.jpg')"></div>
-
+                 style="background-image:url('/static/images/mobile.webp')"></div>
             <h1 class="text-3xl font-bold pt-8 lg:pt-0">Lkidszzzz</h1>
             <div class="mx-auto lg:mx-0 w-4/5 pt-3 border-b-2 border-green-500 opacity-25"></div>
             <p class="pt-4 text-base font-bold flex items-center justify-center lg:justify-start">
@@ -62,7 +57,8 @@
             <p class="pt-8 text-sm mx-auto">You say life has lost its meaning. <br>
                 And that's true if you believe it.</p>
             <div class="pt-12 pb-8">
-                <button onclick="alert('爬捏,你不配捏~')" class="bg-green-700 hover:bg-green-900 text-white font-bold py-2 px-4 rounded-full">
+                <button onclick="alert('爬捏,你不配捏~')"
+                        class="bg-green-700 hover:bg-green-900 text-white font-bold py-2 px-4 rounded-full">
                     Get In Touch
                 </button>
             </div>
@@ -97,25 +93,21 @@
                         <path d="M12.588 3.11a8.78 8.78 0 013.417.919 8.775 8.775 0 012.706 2.094 9.113 9.113 0 011.715 2.963 8.65 8.65 0 01.465 3.502 8.224 8.224 0 01-.307 1.848 9.174 9.174 0 01-.674 1.703 19.96 19.96 0 01-1.47 2.412 17.61 17.61 0 01-1.762 2.118 18.61 18.61 0 01-4.286 3.281l-.037.026a.196.196 0 01-.109.023.293.293 0 01-.159-.097.266.266 0 01-.062-.173c0-.029.004-.059.012-.085a.186.186 0 01.037-.062c.277-.393.506-.806.686-1.235a5.42 5.42 0 00.368-1.359.118.118 0 00-.038-.085.11.11 0 00-.085-.038 9.155 9.155 0 01-.795.062 4.926 4.926 0 01-.796-.037 8.818 8.818 0 01-6.123-3.013 9.089 9.089 0 01-1.715-2.963 8.662 8.662 0 01-.465-3.502 8.224 8.224 0 01.306-1.848 8.598 8.598 0 01.675-1.68c.439-.864.93-1.676 1.469-2.436a18.035 18.035 0 011.76-2.119A18.801 18.801 0 0111.609.05l.038-.025a.187.187 0 01.11-.025.295.295 0 01.157.098.255.255 0 01.062.174.244.244 0 01-.012.084.164.164 0 01-.036.061 6.447 6.447 0 00-.687 1.237c-.18.433-.3.885-.366 1.358 0 .033.012.063.036.086a.117.117 0 00.085.037c.262-.033.527-.053.795-.06.272-.01.536.002.798.034zm-.807 12.367a3.32 3.32 0 002.521-.855c.72-.64 1.11-1.438 1.176-2.4a3.357 3.357 0 00-.856-2.535 3.294 3.294 0 00-2.4-1.162 3.36 3.36 0 00-2.534.855 3.3 3.3 0 00-1.164 2.4 3.381 3.381 0 00.846 2.535c.628.725 1.432 1.115 2.411 1.162z"/>
                     </svg>
                 </a>
-                <a class="link" href="/static/images/money.jpg" data-tippy-content="请我喝酒">
+                <a class="link" href="/static/images/money.webp" data-tippy-content="请我喝酒">
                     <svg class="h-6 fill-current text-gray-600 hover:text-green-700" role="img" viewBox="0 0 24 24"
                          xmlns="http://www.w3.org/2000/svg">
                         <path d="M7.938 0a.214.214 0 0 0-.206.156c-.316 1.104.179 2.15.838 2.935.153.181.313.347.476.501a2.039 2.039 0 0 0-.665.02c-1.184.233-2.193.985-2.74 2.532a3.893 3.893 0 0 0-.2 1.466 1.565 1.565 0 0 0-1.156 1.504 1.59 1.59 0 0 0 1.227 1.541l.026 12.046c0 .195.1.377.264.482a.214.214 0 0 0 .008.005c.537.31 2.047.812 5.21.812 3.238 0 4.7-.678 5.181-1.04a.214.214 0 0 0 .008-.007.571.571 0 0 0 .206-.439c.002-.344.002-1.136.002-1.604a.143.143 0 0 1 .147-.144c.397.006.869.006 1.318.005a1.826 1.826 0 0 0 1.832-1.825v-5.804a1.826 1.826 0 0 0-1.825-1.826H16.56a.14.14 0 0 1-.143-.144V10.6h.007v-.001a1.573 1.573 0 0 0 1.356-1.556c0-.816-.627-1.489-1.424-1.563-.025-1.438-.437-2.126-.736-2.58a.214.214 0 0 0-.005-.007c-.364-.51-1.193-1.282-2.275-1.316-.503-.016-.842.124-1.125.254-.217.1-.42.177-.67.22.002-1.286.945-1.981.945-1.981a.214.214 0 0 0 .05-.298s-.087-.122-.21-.26c-.121-.136-.269-.294-.47-.378a.214.214 0 0 0-.079-.017.214.214 0 0 0-.145.055 4.308 4.308 0 0 0-.875 1.101 3.42 3.42 0 0 0-.133.273 3.497 3.497 0 0 0-.381-.846C9.794.978 9.063.436 8.017.016A.214.214 0 0 0 7.939 0zm.156.524c.85.378 1.43.83 1.79 1.403.274.438.426.962.484 1.584a3.07 3.07 0 0 0-.012.462 6.897 6.897 0 0 1-.168-.052 5.487 5.487 0 0 1-1.29-1.106c-.551-.657-.935-1.46-.804-2.291zM11.8 1.618c.07.054.141.101.212.18.034.039.032.04.058.073-.332.308-1.07 1.144-.952 2.453a.214.214 0 0 0 .222.195c.469-.017.782-.172 1.056-.299.273-.126.508-.228.931-.214.875.027 1.639.715 1.939 1.134.295.449.65 1 .663 2.36a1.66 1.66 0 0 0-.41.142 1.938 1.938 0 0 0-1.77-1.16 1.94 1.94 0 0 0-1.87 1.448 1.783 1.783 0 0 0-1.356-.64c-.484 0-.91.205-1.233.517a1.873 1.873 0 0 0-1.85-1.625c-.649 0-1.218.335-1.552.84a3.1 3.1 0 0 1 .157-.735c.51-1.437 1.355-2.045 2.42-2.254.367-.073.664-.011.99.095.325.106.671.262 1.094.342a.214.214 0 0 0 .252-.245c-.112-.67.073-1.266.336-1.744a3.71 3.71 0 0 1 .663-.863zM7.44 6.611a1.442 1.442 0 0 1 1.363 1.925.214.214 0 0 0 .168.283h.005a.214.214 0 0 0 .238-.146 1.373 1.373 0 0 1 2.613-.01.214.214 0 0 0 .417-.09 1.509 1.509 0 0 1 1.504-1.664c.678 0 1.249.445 1.442 1.056a.214.214 0 0 0 .259.143l.15-.04a.214.214 0 0 0 .051-.02 1.139 1.139 0 0 1 1.702.995 1.14 1.14 0 0 1-.985 1.131.214.214 0 0 0-.001 0 2.215 2.215 0 0 0-.485.126 10.65 10.65 0 0 1-1.176.365.214.214 0 0 0-.162.186 1.276 1.276 0 0 1-.146.478 2.07 2.07 0 0 0-.239 1.111l.001.151a.438.438 0 0 1-.16.36.665.665 0 0 1-.43.14.586.586 0 0 1-.588-.59.803.803 0 0 0-.38-.681.214.214 0 0 0-.002-.002c-.24-.145-.43-.37-.532-.636a.214.214 0 0 0-.207-.138 19.469 19.469 0 0 1-5.37-.6l-.003-.002a9.007 9.007 0 0 0-.838-.194h.003a1.16 1.16 0 0 1-.937-1.134c0-.619.488-1.118 1.101-1.14a.214.214 0 0 0 .204-.176 1.443 1.443 0 0 1 1.42-1.187zm8.549 4.106v.455c0 .314.259.573.572.573h1.329a1.397 1.397 0 0 1 1.397 1.397v5.804a1.396 1.396 0 0 1-1.402 1.396.214.214 0 0 0-.002 0c-.448.002-.918 0-1.31-.005a.573.573 0 0 0-.584.573c0 .468 0 1.262-.002 1.603a.214.214 0 0 0 0 .001c0 .042-.019.08-.05.107-.346.26-1.75.95-4.915.95-3.107 0-4.587-.52-4.99-.752a.143.143 0 0 1-.065-.118l-.025-11.955c.145.033.288.07.431.11a.214.214 0 0 0 .003 0c.115.031.246.064.383.097v10.37c0 .129.069.247.18.31.453.217 1.767.732 4.071.732 2.32 0 3.595-.626 4.022-.884a.357.357 0 0 0 .164-.3l.001-10.21c.267-.075.531-.158.792-.254zm-7.99.894a.493.493 0 0 1 .494.493v8.578a.493.493 0 0 1-.493.493.493.493 0 0 1-.494-.493v-8.578A.493.493 0 0 1 8 11.611zm8.652 1.14a.663.663 0 0 0-.662.662v5.208a.663.663 0 0 0 .662.662h1.14a.663.663 0 0 0 .662-.662v-5.209a.663.663 0 0 0-.662-.662zm0 .428h1.14a.233.233 0 0 1 .233.233v5.21a.233.233 0 0 1-.233.232h-1.14a.233.233 0 0 1-.233-.233v-5.209a.233.233 0 0 1 .233-.233z"/>
                     </svg>
                 </a>
             </div>
-
             <!-- Use https://simpleicons.org/ to find the svg for your preferred product -->
-
         </div>
-
     </div>
 
     <!--Img Col-->
     <div class="w-full lg:w-2/5">
         <!-- Big profile image for side bar (desktop) -->
-        <img src="/static/images/pc.jpg" class="rounded-none lg:rounded-lg shadow-2xl hidden lg:block" alt="">
-
+        <img src="/static/images/pc.webp" class="rounded-none lg:rounded-lg shadow-2xl hidden lg:block" alt="">
     </div>
 
 
@@ -126,8 +118,9 @@
 
 </div>
 
-<script src="https://unpkg.com/popper.js@1/dist/umd/popper.min.js"></script>
-<script src="https://unpkg.com/tippy.js@4"></script>
+<script src="/static/scripts/popper.min.js"></script>
+<script src="/static/scripts/index.all.min.js"></script>
+
 <script>
     //Init tooltips
     tippy('.link', {
@@ -157,7 +150,35 @@
 
         }
     });
+</script>
+<!--复制-->
+<script>
+    {
+        function copySteam() {
+            try {
+                navigator.clipboard.writeText("923380666").then(() => tip())
+            } catch (err) {
+                console.error('Failed to copy: ', err)
+            }
+        }
 
+        function copyOrigin() {
+            try {
+                navigator.clipboard.writeText("FLASH-OF-BLAZE").then(() => tip())
+            } catch (err) {
+                console.error('Failed to copy: ', err)
+            }
+        }
+
+        function tip() {
+            let el = document.getElementById('tip')
+            el.classList.remove('hidden')
+            setTimeout(() => {
+                // 3 秒之后运行
+                el.classList.add('hidden')
+            }, 3000)
+        }
+    }
 </script>
 
 </body>
