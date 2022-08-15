@@ -3,4 +3,5 @@ set GOARCH=amd64
 go env -w GOARCH=amd64
 set GOOS=linux
 go env -w GOOS=linux
+tailwindcss -i tailwind.css -o ./static/scripts/tailwind.min.css --minify
 go build .
