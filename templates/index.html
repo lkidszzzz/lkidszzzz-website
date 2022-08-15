@@ -17,8 +17,8 @@
 <body class="font-sans antialiased text-gray-900 leading-normal tracking-wider bg-cover"
       style="background-image:url('/static/images/desktop.webp');">
 
-<div id="tip" class="fixed top-12 w-full z-20 hidden">
-    <div class="mx-auto bg-green-100 bg-opacity-90 shadow-md rounded-xl py-5 px-6 mb-3 text-base text-green-700 flex justify-center items-center w-fit z-20"
+<div id="tip" class="fixed top-12 w-full z-30 hidden">
+    <div class="mx-auto bg-green-100 bg-opacity-90 shadow-md rounded-xl py-5 px-6 mb-3 text-base text-green-700 flex justify-center items-center w-fit"
          role="alert">
         <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="check-circle"
              class="w-4 h-4 mr-2 fill-current" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
@@ -30,14 +30,17 @@
 </div>
 
 <div class="max-w-4xl flex items-center h-auto lg:h-screen flex-wrap mx-auto my-32 lg:my-0 z-10">
+
+    <!--Image for mobile view-->
+    <div class="block lg:hidden rounded-full shadow-2xl shadow-inner mx-auto -mb-36 h-48 w-48 bg-cover bg-center z-20"
+         style="background-image:url('/static/images/mobile.webp')"></div>
+
     <!--Main Col-->
     <div id="profile"
-         class="w-full lg:w-3/5 rounded-lg lg:rounded-l-lg lg:rounded-r-none shadow-lg bg-white opacity-75 mx-6 lg:mx-0">
-
+         class="w-full lg:w-3/5 rounded-lg lg:rounded-l-lg lg:rounded-r-none shadow-lg bg-white opacity-80 mx-6 lg:mx-0">
         <div class="p-4 md:p-12 text-center lg:text-left">
-            <!--Image for mobile view-->
-            <div class="block lg:hidden rounded-full shadow-xl mx-auto -mt-16 h-48 w-48 bg-cover bg-center"
-                 style="background-image:url('/static/images/mobile.webp')"></div>
+            <div class="block lg:hidden rounded-full mx-auto -mt-16 h-48 w-48">
+            </div>
             <h1 class="text-3xl font-bold pt-8 lg:pt-0">Lkidszzzz</h1>
             <div class="mx-auto lg:mx-0 w-4/5 pt-3 border-b-2 border-green-500 opacity-25"></div>
             <p class="pt-4 text-base font-bold flex items-center justify-center lg:justify-start">
