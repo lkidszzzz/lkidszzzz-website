@@ -62,7 +62,7 @@
       <recent name="D:\Komori Chiyu\Documents\Github\lkidszzzz-website\templates" />
     </key>
   </component>
-  <component name="RunManager" selected="Go 构建.go build lkidszzzz-website">
+  <component name="RunManager" selected="Batch.build-linux">
     <configuration name="build-linux" type="BatchConfigurationType" factoryName="Batch" temporary="true">
       <module name="lkidszzzz-website" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -110,9 +110,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Go 构建.go build lkidszzzz-website" />
-        <item itemvalue="Batch.build-windows" />
         <item itemvalue="Batch.build-linux" />
+        <item itemvalue="Batch.build-windows" />
+        <item itemvalue="Go 构建.go build lkidszzzz-website" />
         <item itemvalue="Batch.tailwindcss" />
         <item itemvalue="Batch.windows-build" />
       </list>
