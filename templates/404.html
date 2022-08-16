@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{{ .title }}</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="/static/css/tailwind.min.css"></script>
+</head>
+<body>
+<div class="relative flex min-h-screen flex-col justify-center overflow-hidden bg-gray-50 py-6 sm:py-12">
+    <img src="/static/images/404-bg.webp" alt=""
+         class="absolute top-1/2 left-1/2 max-w-none -translate-x-1/2 -translate-y-1/2" width="1308"/>
+    <div class="relative bg-white bg-opacity-75 px-6 pt-10 pb-8 shadow-2xl ring-1 ring-gray-900/5 rounded-lg mx-auto sm:max-w-lg sm:rounded-lg sm:px-10">
+        <div class="container flex flex-col items-center justify-center px-5 my-8">
+            <div class="max-w-md text-center">
+                <h2 class="mb-8 font-extrabold text-9xl text-stone-800">
+                    <span class="sr-only">Error</span>404
+                </h2>
+                <p class="text-2xl font-semibold md:text-3xl text-stone-800">Oops! Page not found</p>
+                <p class="mt-4 mb-8 text-stone-800">The page you're looking for isn't available.<br>But don't worry, you
+                    can find plenty of other things on our
+                    homepage.</p>
+                <a rel="noopener noreferrer" href="/"
+                   class="px-8 py-3.5 font-semibold rounded-lg shadow-md bg-stone-800 text-white">Back
+                    to homepage</a>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
